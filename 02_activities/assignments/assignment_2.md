@@ -10,7 +10,17 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      Good visualization = https://public.tableau.com/app/profile/ali15tehrani/viz/Peloton_17339510060210/Peloton
+      Rationale: 
+      This is an example of a good visualization. It demonstrates a high degree of perceptual efficiency. The author was able to organize complex data into a clean, intuitive layout and minimize extraneous cognitive load, allowing the viewer to grasp key fitness trends almost instantly. From an aesthetic standpoint, the visualization is highly cohesive; the use of consistent colours (purple theme) and purposeful whitespace creates a professional, breathable interface that draws the eye toward the most critical metrics rather than away from them. The substantive integrity of the work is also noteworthy, as the inclusion of informative labels (e.g. minutes) provides the necessary foundation to understand the data. Ultimately, the infographic works because it uses a design strategy that prioritizes the user’s ability to extract actionable insights with minimal effort (i.e., the frequency of workouts over each month, and overall characteristics of the workout (including type and time)).
+
+      
+      
+      Bad visualization = https://public.tableau.com/app/profile/fergus.smith/viz/FastFashionsEnvironmentalWakeUpCall/Dashboard1
+      Rationale: 
+      This visualization serves as an example of a bad visualization design, as it fails to prioritize information clarity, thereby imposing a high level of extraneous cognitive load on the viewer. The use of a pair of jeans as a background image creates significant unnecessary constraint on the data presentation area that competes with the data for attention, rather than enhancing the narrative. From an aesthetic perspective, the dashboard suffers from a lack of visual hierarchy and a a poor use of whitespace, resulting in a cluttered, disjointed layout where the data feels haphazardly layered over imagery. The substantive integrity is also compromised; the omission of units across the graphs makes it very difficult to interpret the scale of the environmental impact, and the reliance on dense text sentences instead of visual encodings hinders the viewer's ability to extract insights quickly. Finally, the perceptual qualities are lacking—the measuring tape graphic is confusing rather than intuitive, and the overall lack of organization forces the user to expend excessive mental effort to decode simple information.
+
+      Reference: concepts from course lecture - cognitive load (intrinsic, germane, extraneous), aesthetic, substantive, perceptual qualities of data
 
 
 
@@ -21,8 +31,23 @@
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      Good visualization = https://public.tableau.com/app/profile/ali15tehrani/viz/Peloton_17339510060210/Peloton
+      Improvement:
+      1) Present different versions of the infographic sorted by type of workout. This will help track if certain types of workouts are more frequent in certain months. 
+      2) While the data is clean, adding contextual annotations (e.g., a note explaining a spike in workouts due to a personal milestone) would improve substantive depth. This tells us about "why" behind the data, not just the "what."
+      
 
+      Bad visualization =  https://public.tableau.com/app/profile/fergus.smith/viz/FastFashionsEnvironmentalWakeUpCall/Dashboard1
+      Improvement:
+      1) Remove the Background Image - Replace the jeans graphic with a clean, neutral background. This immediately reduces extraneous cognitive load, allowing the viewer to focus entirely on the data.
+      2) Standardize Units and Scales - For every chart, explicitly include units (e.g., "CO2 in tonnes," "Water in cubic meters") in the axes or labels. This repairs the substantive integrity by removing ambiguity.
+      3) Replace long-form explanatory sentences with clear, labeled charts (e.g., a simple bar chart for comparison) to improve perceptual efficiency.
+      4) Use a structured layout with consistency between elements to improve coherence and visual aesthetic.
+      5) Remove the "measuring tape" graphic, which looks out of place
+      
+
+
+      
 
 
 
