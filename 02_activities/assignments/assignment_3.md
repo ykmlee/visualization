@@ -8,22 +8,34 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+    > ANSWER (for both plots): Python (using pandas for data processing and matplotlib for visualization)
 
     > Who is your intended audience? 
-    
+    > ANSWER (for both plots): University dministrators, education policymakers, and academic researchers who are interested in understanding gender distribution and enrollment trends over time. It may also be of interest to current and former students.
+
     > What information or message are you trying to convey with your visualization? 
-    
+    > ANSWER (for plot 1): The visualization shows the gender composition of graduate students, highlighting how enrollment is distributed between genders and whether that balance changes over time. It helps reveal patterns of representation or imbalance in graduate-level education. From the plot we can see that enrollment is increasing in all gender categories. Most graduate students identify as female regardless of fisical year.
+    > ANSWER (for plot 2): The visualization shows how the proportion of undergraduate versus graduate enrollment changes over time. It is showing how one group is growing or shrinking relative to the total student population each fiscal year, rather than focusing on raw enrollment numbers. From the plot, we can see that undergraduate students have made up the majority of the student body, but the proportion of gradaute student have been increasing in recent years.
+
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
-    
+    > ANSWER (for plot 1): I focused on clarity, comparability, and accessibility. A line plot was used to make gender proportions easy to visualize across years. Consistent color mapping was applied to each gender category to avoid confusion. Axis labels, a descriptive title, and a legend were included to ensure the visualization is self-explanatory.
+    > ANSWER (for plot 2): I considered clarity, comparability, and simplicity. I used a 100% stacked bar chart so each year is normalized to the same total, making proportions easy to compare. Consistent colors for undergraduate and graduate categories improve readability. Labels, a legend, and axis titles were included to ensure the chart is interpretable without additional context. 
+
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    > ANSWER (for both plots): The visualization is reproducible because it is built using a Python script (which I have included in my submission) with pandas and matplotlib, which can be rerun on any machine with the same dataset. The data processing steps (e.g. cleaning, grouping) are fully coded rather than manually done. If reproducibility were not ensured, others would not be able to verify results or update the visualization when new data becomes available, reducing trust and usability.
+
     > How did you ensure that your data visualization is accessible?  
-    
+    > ANSWER (for both): Accessibility was considered by using clear axis labels, a descriptive title, and a legend instead of relying on color alone. The chart uses high-contrast default matplotlib colors and avoids overly subtle design elements. 
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    > ANSWER (for both): Students, university administrators, education planners, and policymakers are directly impacted. Changes in undergraduate and graduate enrollment can influence funding allocation, program development, staffing decisions, and institutional priorities. Prospective students and researchers studying higher education trends may also use this information.
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+    > ANSWER (for plot 1): I included only graduate-level data and gender categories because the goal was to specifically analyze gender distribution within graduate enrollment. Other variables such as Study level = undergradaute were excluded to maintain clarity and avoid overcomplicating the visualization. Aggregating data at the graduate level ensures a focused comparison of gender proportions.
+    > ANSWER (for plot 2): I only included "Insitute = Toronto", “Fiscal Year,” “Study Level,” and “HEADCOUNT” because they directly support the comparison of enrollment proportions over time. I excluded other variables such as gender, institution, and other breakdowns to avoid overcomplicating the visualization and to keep the focus on undergraduate vs graduate trends. Aggregating across those excluded categories helps present a clearer high-level trend.
+
     > What ‘underwater labour’ contributed to your final data visualization product?
+    > ANSWER: I had to understand the dataset, decide on what story I wanted to tell with the data, and determine the best way to present the data. 
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
