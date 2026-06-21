@@ -8,10 +8,12 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
-    > ANSWER (for both plots): Python (using pandas for data processing and matplotlib for visualization)
+    > ANSWER (for plot 1): Python (using pandas for data processing and matplotlib for visualization)
+    > ANSWER (for plot 2): R (tidyverse)
 
     > Who is your intended audience? 
-    > ANSWER (for both plots): University dministrators, education policymakers, and academic researchers who are interested in understanding gender distribution and enrollment trends over time. It may also be of interest to current and former students.
+    > ANSWER (for plot 1): University dministrators, education policymakers, and academic researchers who are interested in understanding gender distribution and enrollment trends over time. It may also be of interest to current and former students.
+    > ANSWER (for plot 2): University dministrators, education policymakers, and academic researchers who are interested in understanding gender distribution and enrollment trends over time. It may also be of interest to current and former students.
 
     > What information or message are you trying to convey with your visualization? 
     > ANSWER (for plot 1): The visualization shows the gender composition of graduate students, highlighting how enrollment is distributed between genders and whether that balance changes over time. It helps reveal patterns of representation or imbalance in graduate-level education. From the plot we can see that enrollment is increasing in all gender categories. Most graduate students identify as female regardless of fisical year.
